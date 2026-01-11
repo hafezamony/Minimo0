@@ -1,0 +1,208 @@
+/* 
+    Theme: Minimo
+    Author: 
+    Live URL: 
+
+    Primary Color: 
+    Secondery Color: 
+
+    Font Family: 
+    Title: font-family: 'Playfair Display', serif;
+    Paragraph: font-family: 'Ubuntu', sans-serif;
+*/
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+/* Global CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2, h3,h4,p,a{
+    font-family: 'Playfair Display', serif;
+}
+h6{
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+}
+h5{
+    font-family: 'Ubuntu', sans-serif;
+    color: #c7c1b6;
+}
+
+/* Header Section Start */
+/* Navbar */
+.header-section{
+    padding: 25px;
+}
+.navbar ul li{
+    margin-left: 70px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+}
+.navbar .nav-link:hover{
+    color: #282623;
+}
+/* Header Section End */
+
+/* Banner Section Start */
+.banner-section img{
+    width: 100%;
+}
+/* Banner Section End */
+
+/* Getway Section Start */
+.getway-section{
+    padding: 100px;
+}
+.getway-section h6{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+.getway-section h1{
+    color: #626262;
+    font-size: 44px;
+    margin: 20px auto 30px;
+}
+.getway-section p{
+    color: #626262;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.getway-section h5{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 45px;
+}
+/* Getway Section End */
+
+/* Gallery Section Start */
+.gallery-section{
+    padding: 70px;
+}
+.gallery{
+    justify-content: space-between;
+}
+.gallery-section .gallery-item{
+    margin-bottom: 20%;
+}
+.gallery-section .gallery-item img{
+    width: 100%;
+}
+.gallery-section .gallery-item h6{
+    margin: 25px auto;
+    font-size: 20px;
+    font-weight: 400;
+}
+.gallery-section .gallery-item h2{
+    color: #626262;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.gallery-section .gallery-item p{
+    color: #777777;
+    font-size: 18px;
+    font-weight: 700;
+}
+/* Gallery Section End */
+
+/* Newsletter Section Start */
+.newsletter-section{
+    background: #f0f0f0;
+    padding: 90px;
+    
+}
+.content{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    width: 38%;
+}
+.content h2{
+    color: #333333;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.content input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 95%;
+    padding: 6px 0;
+}
+.content input::placeholder{
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 18px;
+}
+.content input:focus{
+    outline: none;
+}
+.newsletter-section .icon i{
+    position: absolute;
+    right: 25px;
+    bottom: 8px;
+    font-size: 18px;
+}
+
+/* Newsletter Section End */
+
+/* Feature-2 start */
+.gallery-section button{
+    background: transparent;
+    width: 12%;
+    margin: auto;
+    padding: 13px 15px;
+    font-size: 22px;
+    border: 2px solid #626262;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 130px;
+    transition: all .4s ease-in-out;
+}
+.gallery-section button:hover{
+    background: #626262;
+    color: #f0f0f0;
+}
+/* Feature-2 end */
+
+/* Footer Start */
+footer{
+    background: #f0f0f0;
+    padding: 45px 0 25px;
+
+}
+
+footer .terms ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 30px;
+}
+footer .terms ul li a{
+    text-decoration: none;
+    color: #101010;
+    font-size: 18px;
+    font-weight: 600;
+}
+footer .social-icon{
+    text-align: end;
+}
+footer .social-icon ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 30px;
+}
+footer .social-icon ul li a{
+    text-decoration: none;
+    color: #101010;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Footer End */
